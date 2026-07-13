@@ -1,0 +1,19 @@
+.{
+    .name = .xir_runtime_asm,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.17.0",
+    .fingerprint = 0xb4a36d19073fcfc8,
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "README.md",
+        "LICENSE",
+        "THIRD_PARTY_NOTICES.md",
+        "src",
+        "docs",
+        "examples",
+        "tests",
+        "VERSION",
+    },
+}
