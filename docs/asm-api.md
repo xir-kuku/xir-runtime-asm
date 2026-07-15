@@ -247,7 +247,7 @@ Error codes returned through `out_err`:
 For a released archive or git URL, let Zig add the package to your manifest:
 
 ```powershell
-zig fetch --save https://github.com/XIRASM/xir-runtime-asm/archive/refs/tags/v0.1.1.tar.gz
+zig fetch --save https://github.com/XIRASM/xir-runtime-asm/archive/refs/tags/v0.1.2.tar.gz
 ```
 
 For local development, add a relative `.path` dependency in `build.zig.zon`:
