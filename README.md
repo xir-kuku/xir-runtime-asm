@@ -53,7 +53,7 @@ zig build -Dexclude-riscv=true -Dexclude-spirv=true
 For a released archive or git URL, let Zig write the dependency entry:
 
 ```powershell
-zig fetch --save https://github.com/XIRASM/xir-runtime-asm/archive/refs/tags/v0.1.0.tar.gz
+zig fetch --save https://github.com/XIRASM/xir-runtime-asm/archive/refs/tags/v0.1.1.tar.gz
 ```
 
 This adds a `.dependencies.xir_runtime_asm` entry to your `build.zig.zon`
@@ -306,7 +306,7 @@ zig build -Dexclude-riscv=true -Dexclude-spirv=true
 对发布归档或 git URL，让 Zig 自动写入依赖项：
 
 ```powershell
-zig fetch --save https://github.com/XIRASM/xir-runtime-asm/archive/refs/tags/v0.1.0.tar.gz
+zig fetch --save https://github.com/XIRASM/xir-runtime-asm/archive/refs/tags/v0.1.1.tar.gz
 ```
 
 这会在你的 `build.zig.zon` 中加入带内容 hash 的
