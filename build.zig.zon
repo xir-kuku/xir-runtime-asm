@@ -1,6 +1,6 @@
 .{
     .name = .xir_runtime_asm,
-    .version = "0.1.2",
+    .version = "0.1.3",
     .minimum_zig_version = "0.17.0",
     .fingerprint = 0xb4a36d19073fcfc8,
     .dependencies = .{},
