@@ -242,7 +242,7 @@ const char* xir_get_listing(void* ctx);
 对发布归档或 git URL，让 Zig 自动把包写入 manifest：
 
 ```powershell
-zig fetch --save https://github.com/XIRASM/xir-runtime-asm/archive/refs/tags/v0.1.2.tar.gz
+zig fetch --save https://github.com/xir-kuku/xir-runtime-asm/archive/refs/tags/v0.1.2.tar.gz
 ```
 
 本地开发时，在 `build.zig.zon` 里添加相对 `.path` 依赖：
